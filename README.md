@@ -133,11 +133,6 @@ Profit Margin %  = DIVIDE([Total Profit], [Total Sales], 0)
 Total Orders     = DISTINCTCOUNT(fact_Orders[OrderID])
 Total Customers  = DISTINCTCOUNT(fact_Orders[CustomerID])
 
--- Time Intelligence
-YTD Sales        = TOTALYTD([Total Sales], dim_Date[Date])
-LY Sales         = CALCULATE([Total Sales], SAMEPERIODLASTYEAR(dim_Date[Date]))
-MoM Growth %     = DIVIDE([Total Sales] - [LY Sales], [LY Sales], 0)
-
 -- Loss Analysis
 Avg Discount     = AVERAGE(fact_Orders[Discount])
 Avg Ship Days    = AVERAGEX(fact_Orders, DATEDIFF(fact_Orders[OrderDate], fact_Orders[ShipDate], DAY))
@@ -206,7 +201,7 @@ superstore-powerbi-dashboard/
 
 ## 🙋‍♀️ Connect with Me
 
-**Sunaina (Naina) Singh**
+**Sunaina Singh**
 *Aspiring Data Analyst | Power BI · SQL · Python · Excel*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-sunainasingh56-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/sunainasingh56)
