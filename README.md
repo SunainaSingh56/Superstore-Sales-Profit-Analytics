@@ -171,19 +171,16 @@ Loss Products    = CALCULATE(DISTINCTCOUNT(fact_Orders[ProductID]), fact_Orders[
 | **Fields** | 21 columns — Orders, Customers, Products, Geography, Sales, Profit, Shipping |
 
 ---
-
 ## 📂 Project Structure
 
 ```
 superstore-powerbi-dashboard/
 │
-├── 📊 Superstore_Sales_Analytics.pbix    # Main Power BI file
-├── 📁 Dataset/
-│   └── Sample_Superstore.csv             # Raw source data
-├── 📁 Screenshots/
-│   ├── Page1_Sales_Overview.png          # Dashboard page 1
-│   └── Page2_Profit_Analysis.png         # Dashboard page 2
-└── 📄 README.md
+├── Superstore_Sales_Analytics.pbix
+├── README.md
+├── Sample_Superstore.csv
+├── Page1_Sales_Overview.png
+└── Page2_Profit_Analysis.png
 ```
 
 ---
