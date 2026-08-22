@@ -142,10 +142,10 @@ Loss Products    = CALCULATE(DISTINCTCOUNT(fact_Orders[ProductID]), fact_Orders[
 ## 📸 Dashboard Preview
 
 ### Page 1 — Sales Overview
-![Sales Overview](Screenshots/Page1_Sales_Overview.png)
+![Sales Overview](Page1_Sales_Overview.png)
 
 ### Page 2 — Profit & Loss Analysis
-![Profit Analysis](Screenshots/Page2_Profit_Analysis.png)
+![Profit Analysis](Page2_Profit_Analysis.png)
 
 ---
 
