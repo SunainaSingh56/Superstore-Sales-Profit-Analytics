@@ -139,6 +139,14 @@ Avg Ship Days    = AVERAGEX(fact_Orders, DATEDIFF(fact_Orders[OrderDate], fact_O
 Loss Products    = CALCULATE(DISTINCTCOUNT(fact_Orders[ProductID]), fact_Orders[Profit] < 0)
 ```
 
+## 📸 Dashboard Preview
+
+### Page 1 — Sales Overview
+![Sales Overview](Screenshots/Page1_Sales_Overview.png)
+
+### Page 2 — Profit & Loss Analysis
+![Profit Analysis](Screenshots/Page2_Profit_Analysis.png)
+
 ---
 
 ## 🛠️ Tech Stack
