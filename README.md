@@ -155,7 +155,7 @@ Loss Products    = CALCULATE(DISTINCTCOUNT(fact_Orders[ProductID]), fact_Orders[
 |---|---|
 | **Power BI Desktop** | Data modelling, DAX, dashboard building |
 | **Power Query (M)** | Data cleaning, type formatting, column transformations |
-| **DAX** | KPI measures, time intelligence, conditional logic |
+| **DAX** | KPI measures, conditional logic |
 | **Bing Maps** | Geographic visualisation (Sales by State) |
 | **Star Schema** | Relational data model for performance and scalability |
 
